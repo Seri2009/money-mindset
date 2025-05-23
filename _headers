@@ -1,0 +1,8 @@
+/*
+  Cache-Control: public, max-age=3600
+  
+/article-images/*
+  Cache-Control: public, max-age=3600
+  
+/placeholder.svg
+  Cache-Control: public, max-age=3600 
