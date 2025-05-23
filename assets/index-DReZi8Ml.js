@@ -210,7 +210,7 @@ Start writing your article content here. This content will be automatically used
 
 ## Section Title
 
-Your content here...`,id:"new-beginnings",excerpt:"Start writing your article content here. This content will be automatically used to generate the excerpt. Your content here..."},{title:"Debit vs. Credit Cards: What’s the Difference?",slug:"debit-vs-credit-cards-whats-the-difference",category:"personal-finance",publicationDate:"2025-05-22",featured:!1,image:"/money-mindset/article-images/debit-vs-credit-cards-whats-the-difference.avif",content:`# Debit vs. Credit Cards: What’s the Difference?  
+Your content here...`,id:"new-beginnings",excerpt:"Start writing your article content here. This content will be automatically used to generate the excerpt. Your content here..."},{title:"Debit vs. Credit Cards: What’s the Difference?",slug:"debit-vs-credit-cards-whats-the-difference",category:"personal-finance",publicationDate:"2025-05-22",featured:!1,image:"/money-mindset/article-images/debit-vs-credit-cards-whats-the-difference.jpg",content:`# Debit vs. Credit Cards: What’s the Difference?  
 *By Seri Kanj* 
 
 When I first started learning about personal finance, one of the things I kept hearing about was the difference between **debit cards** and **credit cards**. At first glance, they seem pretty similar—they're both plastic (or digital) cards you can use to pay for things. But once I dug deeper, I realized that understanding how they work—and how they differ—is essential to using them wisely and building good financial habits.
