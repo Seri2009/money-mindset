@@ -4,7 +4,7 @@ slug: debit-vs-credit-cards-whats-the-difference
 category: personal-finance
 publicationDate: '2025-05-22'
 featured: false
-image: /money-mindset/article-images/debit-vs-credit-cards-whats-the-difference.avif
+image: /money-mindset/article-images/debit-vs-credit-cards-whats-the-difference.jpg
 ---
 
 # Debit vs. Credit Cards: What’s the Difference?  
