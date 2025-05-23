@@ -191,7 +191,7 @@ Your content here...
     // Offer to open in editor
     const openEditor = await question('Open in default editor? (y/n): ');
     if (openEditor.toLowerCase() === 'y') {
-      const editor = process.env.EDITOR || 'code';
+      const editor = process.env.EDITOR || 'open';
       exec(`${editor} "${filePath}"`);
     }
   } catch (err) {
