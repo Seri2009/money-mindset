@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import CategoryPage from "./pages/CategoryPage";
 import ArticlePage from "./pages/ArticlePage";
 import NotFound from "./pages/NotFound";
+import { LockCheck } from "./components/LockCheck";
 
 const queryClient = new QueryClient();
 
@@ -15,14 +16,16 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="/category/:categorySlug" element={<CategoryPage />} />
-          <Route path="/article/:slug" element={<ArticlePage />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </HashRouter>
+      <LockCheck>
+        <HashRouter>
+          <Routes>
+            <Route path="/" element={<Index />} />
+            <Route path="/category/:categorySlug" element={<CategoryPage />} />
+            <Route path="/article/:slug" element={<ArticlePage />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </HashRouter>
+      </LockCheck>
     </TooltipProvider>
   </QueryClientProvider>
 );

@@ -108,11 +108,22 @@ export const articles: Article[] = [
     "slug": "sample-article-title",
     "excerpt": "This is a short summary of the sample article.",
     "category": "personal-finance",
-    "image": "/clean-blog-website-template/placeholder.svg",
+    "image": "/clean-blog-website-template/article-images/placeholder-sample-article-title.svg",
     "publicationDate": "2024-06-01",
     "featured": false,
     "content": "# Sample Article Title\n\nWelcome to your first Markdown-based article! This is where your content goes. You can use **Markdown** syntax for formatting, images, lists, and more.\n\n## Section Example\n\n- Point one\n- Point two\n\nAdd more sections as needed.",
     "id": "sample-article-title"
+  },
+  {
+    "title": "Newest Article",
+    "slug": "newest-article",
+    "category": "global-economics-trends",
+    "publicationDate": "1520-12-04",
+    "featured": true,
+    "image": "/clean-blog-website-template/placeholder.svg",
+    "content": "# Newest Article\n\nStart writing your article content here. This content will be automatically used to generate the excerpt.\n\n## Section Title\n\nYour content here...",
+    "id": "newest-article",
+    "excerpt": "Start writing your article content here. This content will be automatically used to generate the excerpt. Your content here..."
   }
 ];
 
