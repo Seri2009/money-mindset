@@ -8,7 +8,7 @@ export const articles: Article[] = [
     "category": "personal-finance",
     "publicationDate": "2025-05-23",
     "featured": true,
-    "image": "/clean-blog-website-template/article-images/new-beginnings.jpg",
+    "image": "/money-mindset/article-images/new-beginnings.jpg",
     "content": "# New Beginnings\n\nStart writing your article content here. This content will be automatically used to generate the excerpt.\n\n## Section Title\n\nYour content here...",
     "id": "new-beginnings",
     "excerpt": "Start writing your article content here. This content will be automatically used to generate the excerpt. Your content here..."

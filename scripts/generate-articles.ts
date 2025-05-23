@@ -43,17 +43,12 @@ async function main() {
 
   try {
     // Use project dependencies via ts-node-esm
-    execSync(`npx ts-node-esm ${tempTs}`, { stdio: 'inherit' });
+    execSync(`node --loader ts-node/esm ${tempTs}`, { stdio: 'inherit' });
   } catch (e1) {
     try {
       execSync(`npx ts-node ${tempTs}`, { stdio: 'inherit' });
     } catch (e2) {
-      // Compile and run via node
-      execSync(`npx tsc ${tempTs} --outDir ${__dirname}`, { stdio: 'inherit' });
-      const tempJs = tempTs.replace(/\.ts$/, '.js');
-      execSync(`node ${tempJs}`, { stdio: 'inherit' });
-      // Clean up compiled JS
-      if (fs.existsSync(tempJs)) fs.unlinkSync(tempJs);
+      if (fs.existsSync(tempTs)) fs.unlinkSync(tempTs);
     }
   } finally {
     // Remove temporary TS file
