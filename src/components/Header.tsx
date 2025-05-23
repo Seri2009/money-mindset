@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -12,7 +11,7 @@ import {
   CommandItem,
   CommandList,
 } from '@/components/ui/command';
-import { getRecentArticles } from '@/data/articles';
+import { getRecentArticles } from '@/data/generated-articles';
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Header = () => {

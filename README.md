@@ -91,3 +91,80 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+
+## Article Management System
+
+This project includes a robust article management system that makes it easy to create, update, and publish articles using Markdown.
+
+### Key Features
+
+- Simple Markdown-based article creation
+- Automatic excerpt generation from article content
+- Support for article images
+- Category organization
+- Featured article designation
+- Publication date management
+
+### How to Use
+
+1. **Install Dependencies**
+
+   ```bash
+   npm install
+   ```
+
+2. **Managing Articles**
+
+   We've included scripts to help you manage articles:
+
+   ```bash
+   # Run the interactive article manager
+   npm run articles
+   
+   # Generate the TypeScript file from Markdown articles
+   npm run generate-articles
+   ```
+
+3. **Article Manager Options**
+
+   The article manager provides these options:
+   - Create a new article
+   - List existing articles
+   - Update an existing article
+   - Generate articles TypeScript file
+   - Add an image to an article
+
+4. **Article Structure**
+
+   Articles are stored as Markdown files in `src/articles/` and follow this structure:
+
+   ```markdown
+   ---
+   title: "Your Article Title"
+   slug: "your-article-slug"
+   category: "personal-finance"
+   image: "/article-images/your-image.jpg"
+   publicationDate: "2024-06-01"
+   featured: false
+   ---
+
+   # Your Article Title
+
+   Article content goes here...
+   ```
+
+5. **Images**
+
+   - Place article images in `public/article-images/`
+   - Reference them in articles as `/article-images/your-image.jpg`
+
+6. **Build Process**
+
+   When you build the site, articles are automatically processed and included in the static output.
+
+### Workflow
+
+1. Create or update articles using the article manager (`npm run articles`)
+2. Add images to the articles as needed
+3. Generate the TypeScript file (`npm run generate-articles`)
+4. Build and deploy the site

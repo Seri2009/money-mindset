@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import MainLayout from '@/components/MainLayout';
 import ArticleCard from '@/components/ArticleCard';
 import { Separator } from '@/components/ui/separator';
-import { getFeaturedArticles, getRecentArticles } from '@/data/articles';
+import { getFeaturedArticles, getRecentArticles } from '@/data/generated-articles';
 import { getCategoryLabel } from '@/types/article';
 
 const Index = () => {

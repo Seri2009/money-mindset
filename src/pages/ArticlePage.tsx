@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import MainLayout from '@/components/MainLayout';
 import ArticleCard from '@/components/ArticleCard';
 import { Separator } from '@/components/ui/separator';
-import { getArticleBySlug, getRecentArticles } from '@/data/articles';
+import { getArticleBySlug, getRecentArticles } from '@/data/generated-articles';
 import { getCategoryLabel } from '@/types/article';
 import { NotFound } from './NotFound';
 import ReactMarkdown from 'react-markdown';

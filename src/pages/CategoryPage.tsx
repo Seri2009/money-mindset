@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import MainLayout from '@/components/MainLayout';
 import ArticleCard from '@/components/ArticleCard';
 import { Separator } from '@/components/ui/separator';
-import { getArticlesByCategory } from '@/data/articles';
+import { getArticlesByCategory } from '@/data/generated-articles';
 import { Category, getCategoryLabel } from '@/types/article';
 
 const CategoryPage = () => {
