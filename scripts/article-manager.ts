@@ -14,7 +14,7 @@ const __dirname = path.dirname(__filename);
 const articlesDir = path.join(__dirname, '../src/articles');
 const publicImagesDir = path.join(__dirname, '../public/article-images');
 const srcImagesDir = path.join(__dirname, '../src/article-images');
-const BASE_PATH = "/clean-blog-website-template";
+const BASE_PATH = "/money-mindset";
 
 // Create directories if they don't exist
 for (const dir of [articlesDir, publicImagesDir, srcImagesDir]) {

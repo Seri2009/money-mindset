@@ -4,7 +4,7 @@ slug: new-beginnings
 category: personal-finance
 publicationDate: '2025-05-23'
 featured: true
-image: /clean-blog-website-template/article-images/new-beginnings.jpg
+image: /money-mindset/article-images/new-beginnings.jpg
 ---
 
 # New Beginnings
