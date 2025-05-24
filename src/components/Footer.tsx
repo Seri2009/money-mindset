@@ -31,6 +31,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-6 border-t border-border flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-muted-foreground">© {currentYear} MoneyMindset. All rights reserved.</p>
+          <p className="text-sm text-muted-foreground mt-1"> Founded by Seri Kanj · Website created by Khaled Adib</p>
           <div className="flex space-x-4 mt-4 md:mt-0">
             <a href="#" className="text-muted-foreground hover:text-foreground">
               <span className="sr-only">Twitter</span>
