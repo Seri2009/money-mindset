@@ -1,10 +1,10 @@
 ---
-title: "The 50/30/20 Rule Explained for Students"
-slug: "the-503020-rule-explained-for-students"
-category: "personal-finance"
-publicationDate: "2025-05-24"
+title: The 50/30/20 Rule Explained for Students
+slug: the-503020-rule-explained-for-students
+category: personal-finance
+publicationDate: '2025-05-24'
 featured: true
-image: "/money-mindset/placeholder.svg"
+image: /money-mindset/article-images/the-503020-rule-explained-for-students.jpg
 ---
 
 # The 50/30/20 Rule Explained for Students  
