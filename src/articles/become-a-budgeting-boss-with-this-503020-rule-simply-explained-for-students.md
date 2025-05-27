@@ -8,9 +8,7 @@ image: >-
   /money-mindset/article-images/become-a-budgeting-boss-with-this-503020-rule-simply-explained-for-students.jpg
 ---
 
-# Become a Budgeting Boss with this 50/30/20 Rule Simply Explained for Students 
-
-By Dimitre Tobok
+## By Dimitre Tobok.
 
 As a student, managing money can feel overwhelming, especially with tuition, books, food, and the occasional (or frequent) bubble tea splurge. But there’s one timeless budgeting method that can help anyone, even with a modest income, get a handle on their finances, presenting the ultimate 50/30/20 rule.
 
