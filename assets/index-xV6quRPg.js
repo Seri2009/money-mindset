@@ -151,8 +151,6 @@ Everyone in life should understand the differences between credit and debit card
 
 The money on your debit card is directly sourced from your personal bank account. If you complete a transaction with your debit card, the money spent is taken from your account right away or within a couple of days depending on the country you're in or the bank you are a customer of. You can picture it as paying for products or services using money that you don't physically have in your pocket. 
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3kCpDZSpNbaKy3yj-dRi4v2-l2gTUvEuFH0wZU4PCIMyU3-kLlbWqBWOIG7Ln8rkATuL1av4CInwDowWeWNd5ZgtjAVYn_OOb_qtZxpzLSYM6ewYBUtXcmI66hyjw7WEvpoAu2Q?key=pC5XbuUVL-OF0Wm7eTEg2Q)
-
 **Key points about debit cards:**
 
 - You can only spend the money you already have in your account.
