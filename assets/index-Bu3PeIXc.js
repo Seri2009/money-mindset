@@ -142,7 +142,75 @@ Error generating stack: `+o.message+`
 
 If you want to hide the \`${t.titleName}\`, you can wrap it with our VisuallyHidden component.
 
-For more information, see https://radix-ui.com/primitives/docs/components/${t.docsSlug}`;return p.useEffect(()=>{e&&(document.getElementById(e)||console.error(n))},[n,e]),null},tL="DialogDescriptionWarning",nL=({contentRef:e,descriptionId:t})=>{const r=`Warning: Missing \`Description\` or \`aria-describedby={undefined}\` for {${uk(tL).contentName}}.`;return p.useEffect(()=>{var o;const i=(o=e.current)==null?void 0:o.getAttribute("aria-describedby");t&&i&&(document.getElementById(t)||console.warn(r))},[r,e,t]),null},ck=KS,rL=XS,dk=JS,$d=ek,Id=tk,Od=rk,Ad=ok,fk=ak;const iL=ck,oL=dk,hk=p.forwardRef(({className:e,...t},n)=>_.jsx($d,{ref:n,className:Ce("fixed inset-0 z-50 bg-black/80  data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",e),...t}));hk.displayName=$d.displayName;const pk=p.forwardRef(({className:e,children:t,...n},r)=>_.jsxs(oL,{children:[_.jsx(hk,{}),_.jsxs(Id,{ref:r,className:Ce("fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg",e),...n,children:[t,_.jsxs(fk,{className:"absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground",children:[_.jsx(zg,{className:"h-4 w-4"}),_.jsx("span",{className:"sr-only",children:"Close"})]})]})]}));pk.displayName=Id.displayName;const sL=p.forwardRef(({className:e,...t},n)=>_.jsx(Od,{ref:n,className:Ce("text-lg font-semibold leading-none tracking-tight",e),...t}));sL.displayName=Od.displayName;const aL=p.forwardRef(({className:e,...t},n)=>_.jsx(Ad,{ref:n,className:Ce("text-sm text-muted-foreground",e),...t}));aL.displayName=Ad.displayName;const mk=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt,{ref:n,className:Ce("flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground",e),...t}));mk.displayName=Gt.displayName;const lL=({children:e,...t})=>_.jsx(iL,{...t,children:_.jsx(pk,{className:"overflow-hidden p-0 shadow-lg",children:_.jsx(mk,{className:"[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group]:not([hidden])_~[cmdk-group]]:pt-0 [&_[cmdk-group]]:px-2 [&_[cmdk-input-wrapper]_svg]:h-5 [&_[cmdk-input-wrapper]_svg]:w-5 [&_[cmdk-input]]:h-12 [&_[cmdk-item]]:px-2 [&_[cmdk-item]]:py-3 [&_[cmdk-item]_svg]:h-5 [&_[cmdk-item]_svg]:w-5",children:e})})}),gk=p.forwardRef(({className:e,...t},n)=>_.jsxs("div",{className:"flex items-center border-b px-3","cmdk-input-wrapper":"",children:[_.jsx(Jb,{className:"mr-2 h-4 w-4 shrink-0 opacity-50"}),_.jsx(Gt.Input,{ref:n,className:Ce("flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50",e),...t})]}));gk.displayName=Gt.Input.displayName;const vk=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt.List,{ref:n,className:Ce("max-h-[300px] overflow-y-auto overflow-x-hidden",e),...t}));vk.displayName=Gt.List.displayName;const yk=p.forwardRef((e,t)=>_.jsx(Gt.Empty,{ref:t,className:"py-6 text-center text-sm",...e}));yk.displayName=Gt.Empty.displayName;const wk=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt.Group,{ref:n,className:Ce("overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",e),...t}));wk.displayName=Gt.Group.displayName;const uL=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt.Separator,{ref:n,className:Ce("-mx-1 h-px bg-border",e),...t}));uL.displayName=Gt.Separator.displayName;const xk=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt.Item,{ref:n,className:Ce("relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[disabled=true]:pointer-events-none data-[selected='true']:bg-accent data-[selected=true]:text-accent-foreground data-[disabled=true]:opacity-50",e),...t}));xk.displayName=Gt.Item.displayName;const Md=[{title:"Become a Budgeting Boss with this 50/30/20 Rule Simply Explained for Students",slug:"become-a-budgeting-boss-with-this-503020-rule-simply-explained-for-students",category:"personal-finance",publicationDate:"2025-05-27",featured:!0,image:"/money-mindset/article-images/become-a-budgeting-boss-with-this-503020-rule-simply-explained-for-students.jpg",content:`## By Dimitre Tobok.
+For more information, see https://radix-ui.com/primitives/docs/components/${t.docsSlug}`;return p.useEffect(()=>{e&&(document.getElementById(e)||console.error(n))},[n,e]),null},tL="DialogDescriptionWarning",nL=({contentRef:e,descriptionId:t})=>{const r=`Warning: Missing \`Description\` or \`aria-describedby={undefined}\` for {${uk(tL).contentName}}.`;return p.useEffect(()=>{var o;const i=(o=e.current)==null?void 0:o.getAttribute("aria-describedby");t&&i&&(document.getElementById(t)||console.warn(r))},[r,e,t]),null},ck=KS,rL=XS,dk=JS,$d=ek,Id=tk,Od=rk,Ad=ok,fk=ak;const iL=ck,oL=dk,hk=p.forwardRef(({className:e,...t},n)=>_.jsx($d,{ref:n,className:Ce("fixed inset-0 z-50 bg-black/80  data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0",e),...t}));hk.displayName=$d.displayName;const pk=p.forwardRef(({className:e,children:t,...n},r)=>_.jsxs(oL,{children:[_.jsx(hk,{}),_.jsxs(Id,{ref:r,className:Ce("fixed left-[50%] top-[50%] z-50 grid w-full max-w-lg translate-x-[-50%] translate-y-[-50%] gap-4 border bg-background p-6 shadow-lg duration-200 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-left-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-left-1/2 data-[state=open]:slide-in-from-top-[48%] sm:rounded-lg",e),...n,children:[t,_.jsxs(fk,{className:"absolute right-4 top-4 rounded-sm opacity-70 ring-offset-background transition-opacity hover:opacity-100 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:pointer-events-none data-[state=open]:bg-accent data-[state=open]:text-muted-foreground",children:[_.jsx(zg,{className:"h-4 w-4"}),_.jsx("span",{className:"sr-only",children:"Close"})]})]})]}));pk.displayName=Id.displayName;const sL=p.forwardRef(({className:e,...t},n)=>_.jsx(Od,{ref:n,className:Ce("text-lg font-semibold leading-none tracking-tight",e),...t}));sL.displayName=Od.displayName;const aL=p.forwardRef(({className:e,...t},n)=>_.jsx(Ad,{ref:n,className:Ce("text-sm text-muted-foreground",e),...t}));aL.displayName=Ad.displayName;const mk=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt,{ref:n,className:Ce("flex h-full w-full flex-col overflow-hidden rounded-md bg-popover text-popover-foreground",e),...t}));mk.displayName=Gt.displayName;const lL=({children:e,...t})=>_.jsx(iL,{...t,children:_.jsx(pk,{className:"overflow-hidden p-0 shadow-lg",children:_.jsx(mk,{className:"[&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground [&_[cmdk-group]:not([hidden])_~[cmdk-group]]:pt-0 [&_[cmdk-group]]:px-2 [&_[cmdk-input-wrapper]_svg]:h-5 [&_[cmdk-input-wrapper]_svg]:w-5 [&_[cmdk-input]]:h-12 [&_[cmdk-item]]:px-2 [&_[cmdk-item]]:py-3 [&_[cmdk-item]_svg]:h-5 [&_[cmdk-item]_svg]:w-5",children:e})})}),gk=p.forwardRef(({className:e,...t},n)=>_.jsxs("div",{className:"flex items-center border-b px-3","cmdk-input-wrapper":"",children:[_.jsx(Jb,{className:"mr-2 h-4 w-4 shrink-0 opacity-50"}),_.jsx(Gt.Input,{ref:n,className:Ce("flex h-11 w-full rounded-md bg-transparent py-3 text-sm outline-none placeholder:text-muted-foreground disabled:cursor-not-allowed disabled:opacity-50",e),...t})]}));gk.displayName=Gt.Input.displayName;const vk=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt.List,{ref:n,className:Ce("max-h-[300px] overflow-y-auto overflow-x-hidden",e),...t}));vk.displayName=Gt.List.displayName;const yk=p.forwardRef((e,t)=>_.jsx(Gt.Empty,{ref:t,className:"py-6 text-center text-sm",...e}));yk.displayName=Gt.Empty.displayName;const wk=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt.Group,{ref:n,className:Ce("overflow-hidden p-1 text-foreground [&_[cmdk-group-heading]]:px-2 [&_[cmdk-group-heading]]:py-1.5 [&_[cmdk-group-heading]]:text-xs [&_[cmdk-group-heading]]:font-medium [&_[cmdk-group-heading]]:text-muted-foreground",e),...t}));wk.displayName=Gt.Group.displayName;const uL=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt.Separator,{ref:n,className:Ce("-mx-1 h-px bg-border",e),...t}));uL.displayName=Gt.Separator.displayName;const xk=p.forwardRef(({className:e,...t},n)=>_.jsx(Gt.Item,{ref:n,className:Ce("relative flex cursor-default select-none items-center rounded-sm px-2 py-1.5 text-sm outline-none data-[disabled=true]:pointer-events-none data-[selected='true']:bg-accent data-[selected=true]:text-accent-foreground data-[disabled=true]:opacity-50",e),...t}));xk.displayName=Gt.Item.displayName;const Md=[{title:"Credit vs Debit: What’s the Difference?",slug:"credit-vs-debit-whats-the-difference",category:"personal-finance",publicationDate:"2025-05-28",featured:!0,image:"/money-mindset/placeholder.svg",content:`## By Sami Chatila.
+
+Everyone in life should understand the differences between credit and debit cards. They are similar in some ways but different in others. They each have their own unique purposes and they both have pros and cons. In this article I will delve into the differences, similarities and everything in between.
+
+
+## **What is a Debit Card?**
+
+The money on your debit card is directly sourced from your personal bank account. If you complete a transaction with your debit card, the money spent is taken from your account right away or within a couple of days depending on the country you're in or the bank you are a customer of. You can picture it as paying for products or services using money that you don't physically have in your pocket. 
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXf3kCpDZSpNbaKy3yj-dRi4v2-l2gTUvEuFH0wZU4PCIMyU3-kLlbWqBWOIG7Ln8rkATuL1av4CInwDowWeWNd5ZgtjAVYn_OOb_qtZxpzLSYM6ewYBUtXcmI66hyjw7WEvpoAu2Q?key=pC5XbuUVL-OF0Wm7eTEg2Q)
+
+**Key points about debit cards:**
+
+- You can only spend the money you already have in your account.
+
+- There’s usually no interest because you’re not borrowing money.
+
+- Great for everyday purchases and controlling spending.
+
+- Some debit cards offer rewards or cash back, but not always.
+
+
+## **What is a Credit Card?**
+
+Credit cards are the more popular choice by the population. They allow you to receive a loan from the bank or company that you are a customer of. Depending on your credit score which is determined by many different factors like your ability to pay credit card bills on time, you might receive a higher loan amount or credit card limit. However, these loans are not as amazing as they seem. This is because you must pay back these loans every month or bimonthly along with interest, and if you don't pay on time you will be in debt which can be stressful.
+
+**Key points about credit cards:**
+
+- You can spend money you don’t currently have, up to a credit limit.
+
+- You’ll receive a bill each month and must pay at least a minimum amount.
+
+- If you pay off your balance in full, you avoid interest charges.
+
+- Can help build your credit history, which is important for things like loans.
+
+- Often offer rewards like points, cash back, or travel miles.
+
+
+## **Main Differences at a Glance**
+
+|                  |                             |                                   |
+| :--------------: | :-------------------------: | :-------------------------------: |
+|    **Feature**   |        **Debit Card**       |          **Credit Card**          |
+|   Money Source   |    Your own bank account    |      Borrowed money (credit)      |
+|  Spending Limit  | Amount in your bank account |     Credit limit set by issuer    |
+|     Interest     |             None            |    Charged if balance not paid    |
+| Impact on Credit |          No effect          |     Affects your credit score     |
+|       Fees       |     Usually low or none     | Possible annual fees and interest |
+
+
+## **Why Does This Matter?**
+
+Debit cards allow people to control their spending, without going into debt. However, credit cards can be beneficial as by building your credit score, it can award you with different benefits and perks. However using a credit card carelessly can be a very dangerous task that can put you in severe debt 
+
+![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXd11mJyt6L4B_B0MkZfEc8ZTfDlsuykjwWsZMwXDl6HlW2m5GGAPoAfu6lIoZNCTBNHMcOSB9qcszW-9mQ7D1scC6aPNHl7NbtuH0kwpLVssWH5mpv-bXe7Q1dL_ifJFej2ap0d9g?key=pC5XbuUVL-OF0Wm7eTEg2Q)
+
+
+## **Tips for Smart Use**
+
+- **Debit:** Keep track of your balance to avoid overdraft fees.
+
+* **Credit:** Pay your bill in full each month to avoid interest.
+
+- **Both:** Monitor your statements regularly for errors or fraud.
+
+## **Final Thoughts**
+
+Both debit and credit cards have their own advantages and disadvantages. Understanding how each one works as a student in highschool is extremely important, as it helps you make smarter money decisions and build a strong financial future right from the start.`,id:"credit-vs-debit-whats-the-difference",excerpt:"Everyone in life should understand the differences between credit and debit cards. They are similar in some ways but different in others...."},{title:"Become a Budgeting Boss with this 50/30/20 Rule Simply Explained for Students",slug:"become-a-budgeting-boss-with-this-503020-rule-simply-explained-for-students",category:"personal-finance",publicationDate:"2025-05-27",featured:!0,image:"/money-mindset/article-images/become-a-budgeting-boss-with-this-503020-rule-simply-explained-for-students.jpg",content:`## By Dimitre Tobok.
 
 As a student, managing money can feel overwhelming, especially with tuition, books, food, and the occasional (or frequent) bubble tea splurge. But there’s one timeless budgeting method that can help anyone, even with a modest income, get a handle on their finances, presenting the ultimate 50/30/20 rule.
 
