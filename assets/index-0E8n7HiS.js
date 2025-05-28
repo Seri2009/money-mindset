@@ -179,19 +179,6 @@ Credit cards are the more popular choice by the population. They allow you to re
 - Often offer rewards like points, cash back, or travel miles.
 
 
-## **Main Differences at a Glance**
-
-|                  |                             |                                   |
-| :--------------: | :-------------------------: | :-------------------------------: |
-|    **Feature**   |        **Debit Card**       |          **Credit Card**          |
-|   Money Source   |    Your own bank account    |      Borrowed money (credit)      |
-|  Spending Limit  | Amount in your bank account |     Credit limit set by issuer    |
-|     Interest     |             None            |    Charged if balance not paid    |
-| Impact on Credit |          No effect          |     Affects your credit score     |
-|       Fees       |     Usually low or none     | Possible annual fees and interest |
-
-
-
 ## **Why Does This Matter?**
 
 Debit cards allow people to control their spending, without going into debt. However, credit cards can be beneficial as by building your credit score, it can award you with different benefits and perks. However using a credit card carelessly can be a very dangerous task that can put you in severe debt 
