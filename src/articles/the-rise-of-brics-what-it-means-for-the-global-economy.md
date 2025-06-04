@@ -5,7 +5,7 @@ category: global-economics-trends
 publicationDate: '2025-06-03'
 featured: false
 image: >-
-  /money-mindset/article-images/the-rise-of-brics-what-it-means-for-the-global-economy.png
+  /money-mindset/article-images/the-rise-of-brics-what-it-means-for-the-global-economy.jpg
 ---
 
 ### By Dimitre Tobok
