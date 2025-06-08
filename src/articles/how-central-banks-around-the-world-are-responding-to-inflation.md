@@ -5,7 +5,7 @@ category: global-economics-trends
 publicationDate: '2025-06-03'
 featured: true
 image: >-
-  /money-mindset/article-images/how-central-banks-around-the-world-are-responding-to-inflation.jpg
+  /article-images/how-central-banks-around-the-world-are-responding-to-inflation.jpg
 ---
 
 ## By Seri Kanj

@@ -4,7 +4,7 @@ slug: credit-vs-debit-whats-the-difference
 category: personal-finance
 publicationDate: '2025-05-28'
 featured: true
-image: /money-mindset/article-images/credit-vs-debit-whats-the-difference.jpg
+image: /article-images/credit-vs-debit-whats-the-difference.jpg
 ---
 
 ## By Sami Chatila.

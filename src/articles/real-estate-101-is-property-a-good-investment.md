@@ -5,7 +5,7 @@ category: investing-wealth
 publicationDate: '2025-06-05'
 featured: false
 image: >-
-  /money-mindset/article-images/real-estate-101-is-property-a-good-investment.webp
+  /article-images/real-estate-101-is-property-a-good-investment.webp
 ---
 
 ## By John Jean Hanna

@@ -5,7 +5,7 @@ category: entrepreneurship-business
 publicationDate: '2025-06-03'
 featured: true
 image: >-
-  /money-mindset/article-images/the-power-of-branding-why-it-matters-for-your-business.jpg
+  /article-images/the-power-of-branding-why-it-matters-for-your-business.jpg
 ---
 
 ## By Ghazal Molavi Zadeh Yazdi

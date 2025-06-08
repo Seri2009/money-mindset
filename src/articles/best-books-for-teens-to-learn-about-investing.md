@@ -5,7 +5,7 @@ category: investing-wealth
 publicationDate: '2025-06-05'
 featured: true
 image: >-
-  /money-mindset/article-images/best-books-for-teens-to-learn-about-investing.webp
+  /article-images/best-books-for-teens-to-learn-about-investing.webp
 ---
 
 ## By Dimitri Tobok

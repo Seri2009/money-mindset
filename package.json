@@ -9,7 +9,7 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist",
+    "deploy": "cp CNAME dist/ && gh-pages -d dist",
     "articles": "node --loader ts-node/esm scripts/article-manager.ts",
     "generate-articles": "node --loader ts-node/esm scripts/generate-articles.ts"
   },
