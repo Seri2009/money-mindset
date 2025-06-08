@@ -4,7 +4,7 @@ slug: understanding-profit-vs-revenue
 category: entrepreneurship-business
 publicationDate: '2025-06-05'
 featured: false
-image: /article-images/understanding-profit-vs-revenue.jpg
+image: /article-images/understanding-profit-vs-revenue.webp
 ---
 
 ## By Dimitri Tobok

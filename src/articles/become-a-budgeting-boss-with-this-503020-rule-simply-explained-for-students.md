@@ -5,7 +5,7 @@ category: personal-finance
 publicationDate: '2025-05-27'
 featured: true
 image: >-
-  /article-images/become-a-budgeting-boss-with-this-503020-rule-simply-explained-for-students.jpg
+  /article-images/become-a-budgeting-boss-with-this-503020-rule-simply-explained-for-students.webp
 ---
 
 ## By Dimitre Tobok.

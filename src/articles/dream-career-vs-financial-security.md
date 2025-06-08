@@ -4,7 +4,7 @@ slug: dream-career-vs-financial-security
 category: financial-education-career
 publicationDate: '2025-06-04'
 featured: true
-image: /article-images/dream-career-vs-financial-security.jpg
+image: /article-images/dream-career-vs-financial-security.webp
 ---
 ## By Khaled Adib
 

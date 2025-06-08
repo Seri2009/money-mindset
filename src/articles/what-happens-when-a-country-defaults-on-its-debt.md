@@ -5,7 +5,7 @@ category: global-economics-trends
 publicationDate: '2025-06-04'
 featured: true
 image: >-
-  /article-images/what-happens-when-a-country-defaults-on-its-debt.jpg
+  /article-images/what-happens-when-a-country-defaults-on-its-debt.webp
 ---
 
 ## By Khaled Adib
