@@ -4,14 +4,16 @@ import './index.css'
 import posthog from 'posthog-js'
 
 const posthogKey = 'phc_Y1nGZrdU8Uj0fJ6wR2G1upukDucN1Xlecdi9jTqgkfZ';
-let apiHost = process.env.HOST1;
+let apiHost = 'https://us.i.posthog.com';
 
 async function initPostHog() {
   if (posthogKey && apiHost) {
     try {
-      await fetch(apiHost, { method: "HEAD", mode: 'no-cors'});
+      const data = await fetch(apiHost, { method: "HEAD", mode: 'no-cors'});
     } catch (error) {
-      apiHost = "https://{yourdomain}.com/{your-worker-prefix}";
+      if (error.status !== 404) {
+        apiHost = "https://assets.serikanj.workers.dev/";
+      }
     }
     posthog.init(posthogKey, {
       api_host: apiHost,
