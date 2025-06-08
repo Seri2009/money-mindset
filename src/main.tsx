@@ -21,4 +21,8 @@ async function initPostHog() {
 
 initPostHog();
 
+if(!posthog.__loaded){
+  console.log("not loaded");
+}
+
 createRoot(document.getElementById("root")!).render(<App />);
