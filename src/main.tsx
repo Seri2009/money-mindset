@@ -8,12 +8,9 @@ let apiHost = 'https://us.i.posthog.com';
 
 async function initPostHog() {
   if (posthogKey && apiHost) {
-    try {
-      const data = await fetch(apiHost, { method: "HEAD", mode: 'no-cors'});
-    } catch (error) {
-      if (error.status !== 404) {
-        apiHost = "https://assets.serikanj.workers.dev/";
-      }
+    const data = await fetch(apiHost, { method: "HEAD", mode: 'no-cors'});
+    if (data.status !== 404) {
+      apiHost = "https://assets.serikanj.workers.dev/";
     }
     posthog.init(posthogKey, {
       api_host: apiHost,
