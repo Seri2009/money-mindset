@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
@@ -25,6 +24,7 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
               src={article.image} 
               alt={article.title} 
               className="h-full w-full object-cover"
+              loading="lazy"
             />
           </div>
         </Link>
@@ -57,6 +57,7 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
               src={article.image} 
               alt={article.title} 
               className="h-full w-full object-cover"
+              loading="lazy"
             />
           </div>
         </Link>

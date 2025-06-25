@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import MainLayout from '@/components/MainLayout';
 import ArticleCard from '@/components/ArticleCard';
@@ -12,6 +12,10 @@ const ArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = slug ? getArticleBySlug(slug) : undefined;
   const relatedArticles = getRecentArticles(3);
+  
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+  }, [slug]);
   
   if (!article) {
     return <NotFound />;
@@ -49,6 +53,7 @@ const ArticlePage = () => {
                 src={article.image}
                 alt={article.title}
                 className="w-full h-auto rounded-md"
+                loading="lazy"
               />
             </div>
           )}
