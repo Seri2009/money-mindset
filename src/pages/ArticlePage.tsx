@@ -1,11 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect, Suspense, lazy } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import MainLayout from '@/components/MainLayout';
 import ArticleCard from '@/components/ArticleCard';
 import { Separator } from '@/components/ui/separator';
 import { getArticleBySlug, getRecentArticles } from '@/data/generated-articles';
 import { getCategoryLabel } from '@/types/article';
-import { NotFound } from './NotFound';
+const NotFound = lazy(() => import('./NotFound'));
 import ReactMarkdown from 'react-markdown';
 
 const ArticlePage = () => {
@@ -18,7 +18,11 @@ const ArticlePage = () => {
   }, [slug]);
   
   if (!article) {
-    return <NotFound />;
+    return (
+      <Suspense fallback={<div>Loading...</div>}>
+        <NotFound />
+      </Suspense>
+    );
   }
   
   const formattedDate = new Date(article.publicationDate).toLocaleDateString('en-US', {

@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
-import NotFound from "@/pages/NotFound";
-import { useEffect, useState } from "react";
+import { Suspense, lazy, useEffect, useState } from "react";
+
+const NotFound = lazy(() => import("@/pages/NotFound"));
 
 const checkLockStatus = async () => {
   try {
@@ -49,9 +50,13 @@ export function LockCheck({ children }: LockCheckProps) {
 
   if (shouldBlock) {
     console.log("Rendering NotFound page");
-    return <NotFound />;
+    return (
+      <Suspense fallback={<div>Loading...</div>}>
+        <NotFound />
+      </Suspense>
+    );
   }
 
   console.log("Rendering children");
   return <>{children}</>;
-} 
+}
