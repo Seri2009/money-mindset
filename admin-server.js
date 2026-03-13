@@ -63,14 +63,14 @@ export const getArticleBySlug = (slug: string): Article | undefined => {
   fs.writeFileSync(ARTICLES_PATH, content, 'utf-8');
 }
 
-// Generate random view count: 93% chance 1000-2000, 7% chance up to 5000 (harder to go higher)
+// Generate random view count: 90% chance 1000-5000, 10% chance up to 10000 (harder to go higher)
 function generateViews() {
   const roll = Math.random();
-  if (roll > 0.07) {
-    return Math.floor(1000 + Math.random() * 1000);
+  if (roll > 0.10) {
+    return Math.floor(1000 + Math.random() * 4000);
   }
   const t = Math.random();
-  return Math.floor(2000 + Math.pow(t, 2) * 3000);
+  return Math.floor(5000 + Math.pow(t, 2) * 5000);
 }
 
 // --- API Routes ---
