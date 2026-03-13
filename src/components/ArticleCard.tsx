@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Card, CardContent, CardFooter } from '@/components/ui/card';
-import { Article, getCategoryLabel } from '@/types/article';
+import { Article, getCategoryLabel, formatViews } from '@/types/article';
+import { Eye } from 'lucide-react';
 
 interface ArticleCardProps {
   article: Article;
@@ -20,9 +21,9 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
       <Card className="border-0 shadow-none overflow-hidden">
         <Link to={`/article/${article.slug}`}>
           <div className="relative h-64 md:h-96 w-full">
-            <img 
-              src={article.image} 
-              alt={article.title} 
+            <img
+              src={article.image}
+              alt={article.title}
               className="h-full w-full object-cover"
               loading="lazy"
             />
@@ -41,8 +42,12 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
           </Link>
           <p className="text-muted-foreground mt-3">{article.excerpt}</p>
         </CardContent>
-        <CardFooter className="px-0 text-sm text-muted-foreground">
+        <CardFooter className="px-0 text-sm text-muted-foreground flex items-center gap-3">
           {formattedDate}
+          <span className="flex items-center gap-1">
+            <Eye className="h-3.5 w-3.5" />
+            {formatViews(article.views)}
+          </span>
         </CardFooter>
       </Card>
     );
@@ -53,9 +58,9 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <Link to={`/article/${article.slug}`} className="md:col-span-1">
           <div className="relative h-48 w-full">
-            <img 
-              src={article.image} 
-              alt={article.title} 
+            <img
+              src={article.image}
+              alt={article.title}
               className="h-full w-full object-cover"
               loading="lazy"
             />
@@ -75,8 +80,12 @@ const ArticleCard = ({ article, featured = false }: ArticleCardProps) => {
             </Link>
             <p className="text-muted-foreground mt-2 text-sm line-clamp-2">{article.excerpt}</p>
           </CardContent>
-          <CardFooter className="px-0 text-sm text-muted-foreground">
+          <CardFooter className="px-0 text-sm text-muted-foreground flex items-center gap-3">
             {formattedDate}
+            <span className="flex items-center gap-1">
+              <Eye className="h-3.5 w-3.5" />
+              {formatViews(article.views)}
+            </span>
           </CardFooter>
         </div>
       </div>

@@ -17,7 +17,16 @@ export interface Article {
   image?: string;
   publicationDate: string;
   featured?: boolean;
+  views: number;
 }
+
+export const formatViews = (views: number): string => {
+  if (views >= 1000) {
+    const k = views / 1000;
+    return k % 1 === 0 ? `${k}K` : `${k.toFixed(1)}K`;
+  }
+  return views.toString();
+};
 
 export const getCategoryLabel = (category: Category): string => {
   const labels: Record<Category, string> = {

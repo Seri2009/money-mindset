@@ -4,7 +4,8 @@ import MainLayout from '@/components/MainLayout';
 import ArticleCard from '@/components/ArticleCard';
 import { Separator } from '@/components/ui/separator';
 import { getFeaturedArticles, getRecentArticles } from '@/data/generated-articles';
-import { getCategoryLabel } from '@/types/article';
+import { getCategoryLabel, formatViews } from '@/types/article';
+import { Eye } from 'lucide-react';
 import { useInfiniteScroll } from '@/hooks/use-infinite-scroll';
 
 const Index = () => {
@@ -41,6 +42,10 @@ const Index = () => {
                   <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
                     {article.excerpt}
                   </p>
+                  <span className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
+                    <Eye className="h-3 w-3" />
+                    {formatViews(article.views)}
+                  </span>
                 </div>
               ))}
             </div>
@@ -79,6 +84,10 @@ const Index = () => {
               <p className="text-sm text-muted-foreground mt-1 line-clamp-2">
                 {article.excerpt}
               </p>
+              <span className="text-xs text-muted-foreground mt-1 flex items-center gap-1">
+                <Eye className="h-3 w-3" />
+                {formatViews(article.views)}
+              </span>
             </div>
           ))}
         </div>

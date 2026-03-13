@@ -4,7 +4,8 @@ import MainLayout from '@/components/MainLayout';
 import ArticleCard from '@/components/ArticleCard';
 import { Separator } from '@/components/ui/separator';
 import { getArticleBySlug, getRecentArticles } from '@/data/generated-articles';
-import { getCategoryLabel } from '@/types/article';
+import { getCategoryLabel, formatViews } from '@/types/article';
+import { Eye } from 'lucide-react';
 import { NotFound } from './NotFound';
 import ReactMarkdown from 'react-markdown';
 
@@ -43,8 +44,12 @@ const ArticlePage = () => {
           
           <p className="text-xl text-muted-foreground mb-6">{article.excerpt}</p>
           
-          <div className="text-sm text-muted-foreground mb-8">
-            Published on {formattedDate}
+          <div className="text-sm text-muted-foreground mb-8 flex items-center gap-4">
+            <span>Published on {formattedDate}</span>
+            <span className="flex items-center gap-1">
+              <Eye className="h-3.5 w-3.5" />
+              {formatViews(article.views)} views
+            </span>
           </div>
           
           {article.image && (
