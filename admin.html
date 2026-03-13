@@ -148,8 +148,8 @@
             <input type="text" id="f_slug" required placeholder="article-slug">
           </div>
           <div class="form-group full">
-            <label for="f_excerpt">Excerpt</label>
-            <textarea id="f_excerpt" rows="2" required placeholder="Short description..."></textarea>
+            <label for="f_excerpt">Excerpt <span style="color:#525252;font-weight:400">(auto-filled from content)</span></label>
+            <textarea id="f_excerpt" rows="2" required placeholder="Auto-generated from content..."></textarea>
           </div>
           <div class="form-group">
             <label for="f_category">Category</label>
@@ -310,8 +310,11 @@ function showForm(id) {
   document.getElementById('previewBtn').textContent = 'Preview';
   previewMode = false;
 
+  excerptManuallyEdited = false;
+
   if (id) {
     editingId = id;
+    excerptManuallyEdited = true; // don't overwrite existing excerpt when editing
     const a = articles.find(x => x.id === id);
     document.getElementById('formTitle').textContent = 'Edit Article';
     document.getElementById('submitBtn').textContent = 'Update Article';
@@ -358,6 +361,35 @@ function updateImagePreview() {
 }
 
 document.getElementById('f_image').addEventListener('input', updateImagePreview);
+
+let excerptManuallyEdited = false;
+document.getElementById('f_excerpt').addEventListener('input', () => { excerptManuallyEdited = true; });
+document.getElementById('f_content').addEventListener('input', autoExcerpt);
+
+function autoExcerpt() {
+  if (excerptManuallyEdited) return;
+  const content = document.getElementById('f_content').value;
+  const lines = content.split('\n');
+  // Find first non-empty line that isn't a heading or "By ..." author line
+  let text = '';
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+    if (trimmed.startsWith('#')) continue;
+    if (/^\*?\*?By\s/i.test(trimmed.replace(/^#+\s*/, ''))) continue;
+    // Strip markdown formatting
+    text = trimmed
+      .replace(/\*\*(.+?)\*\*/g, '$1')
+      .replace(/\*(.+?)\*/g, '$1')
+      .replace(/_(.+?)_/g, '$1')
+      .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
+    break;
+  }
+  if (text) {
+    const excerpt = text.length > 160 ? text.slice(0, 157) + '...' : text;
+    document.getElementById('f_excerpt').value = excerpt;
+  }
+}
 
 async function uploadImage(input) {
   const file = input.files[0];
