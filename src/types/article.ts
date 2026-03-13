@@ -21,10 +21,6 @@ export interface Article {
 }
 
 export const formatViews = (views: number): string => {
-  if (views >= 1000) {
-    const k = views / 1000;
-    return k % 1 === 0 ? `${k}K` : `${k.toFixed(1)}K`;
-  }
   return views.toString();
 };
 
